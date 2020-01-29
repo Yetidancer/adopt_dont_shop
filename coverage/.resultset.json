@@ -206,6 +206,7 @@
         "lines": [
           1,
           null,
+          1,
           null
         ]
       },
@@ -227,8 +228,25 @@
           1,
           null
         ]
+      },
+      "/Users/zeke/turing/2module/projects/adopt_dont_shop/app/controllers/shelters_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/zeke/turing/2module/projects/adopt_dont_shop/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1580258708
+    "timestamp": 1580259505
   }
 }
