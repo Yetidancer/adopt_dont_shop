@@ -8,4 +8,11 @@ RSpec.describe "new shelter page", type: :feature do
       expect(page).to have_css("input", :count=>5)
     end
   end
+  describe 'form submission' do
+    it 'can submit a new shelter' do
+      visit '/shelters/new'
+
+      
+    end
+  end
 end
