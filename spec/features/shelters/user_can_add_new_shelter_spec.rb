@@ -12,7 +12,7 @@ RSpec.describe "new shelter page", type: :feature do
     it 'can submit a new shelter' do
       visit '/shelters/new'
 
-      
+
     end
   end
 end
