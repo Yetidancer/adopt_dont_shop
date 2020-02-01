@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "pets index page", type: :feature do
+RSpec.describe "shelter pet index page", type: :feature do
   context "as a visitor" do
     it "can see all pets names" do
       shelter_3 = Shelter.create(name: "Puppy Love",
@@ -16,10 +16,12 @@ RSpec.describe "pets index page", type: :feature do
         shelter_id: "#{shelter_3.id}"
         )
 
-      visit "/pets"
+      visit "/shelters/#{shelter_3.id}/pets"
 
-      expect(page).to have_content(pet_1.name)
-      # expect(page).to have_link("New Shelter", :href=>"/shelters/new")
+      expect(page).to have_content(shelter_3.name)
+      expect(page).to have_content("Fido")
+      expect(page).to have_content("6 weeks")
+      expect(page).to have_button("New Shelter")
     end
   end
 end
