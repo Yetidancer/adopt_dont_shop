@@ -290,6 +290,40 @@
           null
         ]
       },
+      "/Users/zeke/turing/2module/projects/adopt_dont_shop/spec/models/pet_spec.rb": {
+        "lines": [
+
+        ]
+      },
+      "/Users/zeke/turing/2module/projects/adopt_dont_shop/spec/models/shelter_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/zeke/turing/2module/projects/adopt_dont_shop/app/models/shelter.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/zeke/turing/2module/projects/adopt_dont_shop/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/zeke/turing/2module/projects/adopt_dont_shop/app/models/pet.rb": {
         "lines": [
           1,
@@ -297,7 +331,36 @@
           null
         ]
       },
-      "/Users/zeke/turing/2module/projects/adopt_dont_shop/app/models/application_record.rb": {
+      "/Users/zeke/turing/2module/projects/adopt_dont_shop/app/controllers/pets_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          null,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/zeke/turing/2module/projects/adopt_dont_shop/app/controllers/application_controller.rb": {
         "lines": [
           1,
           1,
@@ -362,23 +425,8 @@
           null,
           null
         ]
-      },
-      "/Users/zeke/turing/2module/projects/adopt_dont_shop/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/zeke/turing/2module/projects/adopt_dont_shop/app/models/shelter.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1580495485
+    "timestamp": 1580511897
   }
 }

@@ -1,12 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.profile {
+  background-color: lightyellow;
+  border-style: outset;
+  padding: 10px;
+  width: 17.5%;
+}
+</style>
+</head>
+<body>
+
 <h1>All Pets</h1>
 
 <% @pets.each do |pet| %>
-  <p><%= pet.image %></p>
-  <h4><%= pet.name %></h4>
-  <p>
-    <%= pet.age %>
-    <%= pet.sex %>
-    <%= pet.shelter.name %>
-  </p>
-  <br>
+  <div class="profile">
+
+    <img src=<%= pet.image %> alt="Fido bein cute af" width="250">
+    <h4><%= pet.name %></h4>
+    <p>
+      Age:
+      <%= pet.age %><br>
+      Sex:
+      <%= pet.sex %><br>
+      Shelter:
+      <%= pet.shelter.name %>
+    </p>
+    <br>
+  </div>
 <% end %>
