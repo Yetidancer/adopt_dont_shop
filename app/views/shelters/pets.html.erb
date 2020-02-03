@@ -8,27 +8,26 @@
   background-color: lightyellow;
   border-style: outset;
   padding: 10px;
-  width: 17.5%;
+  width: 250px;
 }
 </style>
 </head>
 <body>
 
-<h1>Pets from</h1><%= @shelter.name %>
+<h1>Pets from <%= @shelter.name %></h1>
 
-<% @pets.each do |pet| %>
+<% @shelter.pets.each do |pet| %>
   <div class="profile">
 
     <img src=<%= pet.image %> alt="Fido bein cute af" width="250">
-    <h4><%= pet.name %></h4>
+    <h4>Name: <%= link_to "#{pet.name}", "/pets/#{pet.id}" %></h4>
     <p>
       Age:
       <%= pet.age %><br>
       Sex:
       <%= pet.sex %><br>
-      Shelter:
-      <%= pet.shelter.name %>
     </p>
     <br>
   </div>
 <% end %>
+<%= button_to "Create Pet", "shelters/#{@shelter_id}/pets/new", method: :get%>
